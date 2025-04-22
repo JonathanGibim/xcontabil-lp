@@ -17,10 +17,10 @@ if($_SERVER['SERVER_NAME'] == 'localhost'){
 	define("URL", $_SERVER['REQUEST_SCHEME']."://".$_SERVER['SERVER_NAME']."/".URL_DOMINIO."/");
 
 	// CONFIGURACOES DO BANCO DE DADOS
-	define("DB_HOST", "localhost");
-	define("DB_USUARIO", "root");
+	define("DB_HOST", "");
+	define("DB_USUARIO", "");
 	define("DB_SENHA", "");
-	define("DB_BANCO", "xweb-contato");
+	define("DB_BANCO", "");
 
 }else{
 
@@ -29,10 +29,10 @@ if($_SERVER['SERVER_NAME'] == 'localhost'){
 	define("URL", $_SERVER['REQUEST_SCHEME']."://".URL_DOMINIO."/");
 
 	// CONFIGURACOES DO BANCO DE DADOS
-	define("DB_HOST", "localhost");
-	define("DB_USUARIO", "xwebcomb_sites");
-	define("DB_SENHA", "NC0RB9SOrgla");
-	define("DB_BANCO", "xwebcomb_sites");
+	define("DB_HOST", "");
+	define("DB_USUARIO", "");
+	define("DB_SENHA", "");
+	define("DB_BANCO", "");
 
 }
 
@@ -47,19 +47,19 @@ define("PATH_MODULO", PATH."/app/modulos/");
 define("URL_ATUAL", $_SERVER['REQUEST_SCHEME']."://".$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']);
 
 // IDENTIFICACAO CLIENTE
-define("NOME_SITE", "xestetica");
-define("NOME_CLIENTE", "XWEB");
-define("TITLE", "XWEB");
-define("COD_SESSION", "XW");
+define("NOME_SITE", "");
+define("NOME_CLIENTE", "");
+define("TITLE", "");
+define("COD_SESSION", "");
 
 // ESSE E O E-MAIL QUE RECEBER NOTIFICACOES SOBRE O SISTEMA
 define("ADMIN_EMAIL", "contato@xweb.com.br");
 
 // AUTENTICACAO/CONFIGURACAO DO ENVIO DE E-MAIL
-define("MAIL_HOST", "mail.xweb.com.br");
-define("MAIL_USUARIO", "autenticacao@xweb.com.br");
-define("MAIL_SENHA", "XwebAut753*");
-define("MAIL_PORTA", "587");
+define("MAIL_HOST", "");
+define("MAIL_USUARIO", "");
+define("MAIL_SENHA", "");
+define("MAIL_PORTA", "");
 define("MAIL_TIPO", "");
 
 // TRABALHA COM SESSSAO
